@@ -14,7 +14,7 @@ FROM nvidia/cuda:11.6.1-cudnn8-devel-ubuntu18.04
 # ONNX Runtime Variables
 ARG ONNXRUNTIME_REPO=https://github.com/Microsoft/onnxruntime
 ARG FASTERTRANSFORMER_REPO=https://github.com/NVIDIA/FasterTransformer.git
-ARG ONNXRUNTIME_BRANCH=master
+ARG ONNXRUNTIME_BRANCH=main
 ARG FASTERTRANSFORMER_BRANCH=main
 ARG CMAKE_CUDA_ARCHITECTURES=37;50;52;60;61;70;75;80
 
